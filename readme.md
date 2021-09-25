@@ -1,6 +1,6 @@
 # MongoDB Community edition installation using operator
 
-To create a mongodb cluster follow the below steps
+To create a mongodb cluster clone this repository and follow the below steps
 
 ## Create namepace
 Modify the namespace.yaml file with your namepace name and run the below command
