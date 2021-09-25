@@ -1,0 +1,11 @@
+resources:
+  - replica-set.yaml
+generatorOptions:
+  labels: {}
+  annotations: {}
+  disableNameSuffixHash: true
+
+secretGenerator:
+- name: mongodb-user-password
+  envs:
+  - .env.secret
